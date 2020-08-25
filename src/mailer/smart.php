@@ -21,6 +21,7 @@ $mail->Port = 465;                                    // TCP port to connect to
 $mail->setFrom('alex.orlov111@mail.ru', 'Shinglas.site');   // От кого письмо
 $mail->addAddress('tdcsk2020@yandex.ru');     // Add a recipient
 $mail->addAddress('alexey.andreev@td-csk.ru');               // Name is optional
+$mail->addAddress('zakazarakelovgroup@yandex.ru');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');

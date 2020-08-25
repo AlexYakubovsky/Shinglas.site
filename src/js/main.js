@@ -49,34 +49,8 @@ for (let i = 0; i < collections.length; i++) {
     }
 }
 
+
 //go top
-
-// $(document).ready(function(){
-//     $('body').append('<a href="#" id="go-top" title="Вверх">fghfg</a>');
-// });
-
-// jQuery(document).ready(function($){
-//     $(function() {
-//         $.fn.scrollToTop = function() {
-//             $(this).hide().removeAttr("href");
-//             if ($(window).scrollTop() >= "350") $(this).fadeIn("slow")
-//             var scrollDiv = $(this);
-//             $(window).scroll(function() {
-//                 if ($(window).scrollTop() <= "350") $(scrollDiv).fadeOut("slow")
-//                 else $(scrollDiv).fadeIn("slow")
-//             });
-//             $(this).click(function() {
-//                 $("html, body").animate({scrollTop: 0}, "slow")
-//             })
-//         }
-//     });
-//
-//     $(function() {
-//         $("#go-top").scrollToTop();
-//     });
-//
-// });
-
 
 jQuery(document).ready(function($) {
     var btn = $('#button');
